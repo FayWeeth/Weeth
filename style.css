@@ -216,8 +216,13 @@ a:visited {
 .twitter-timeline{
     width: 420px;
     height: 263.5px;
-    }
+}
 .element{
     width: 420px;
     height: 263.5px;
-    }
+    border: 10px solid black;
+}
+
+.element iframe {
+    height: 263px!important;
+}
