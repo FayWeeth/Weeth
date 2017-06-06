@@ -1,0 +1,13 @@
+Service developpeur (richard)
+outils : 
+-intelliJ idea (environnement de dev)
+-rabbit mq (broker de messages)
+-SQL serveur manager 
+-Docker (contenur d'applicatif)
+Languages:
+-java
+-sql
+résumé:
+Intégratiojn de données de différentes sources au format xml(intégration d'un fichier en entré ou l'on applique une 
+transformation pour en sortir un réusltat finis stocker dans une base de donnée.),
+transfrormtion puis validation des donnés grâce a java. percistance des données en base de donnée via SQL.

@@ -1,0 +1,223 @@
+/* encadrement des  images */
+.smallimg {
+    height: 188px;
+    width: 336px;
+    border-style:ridge;
+    border-color:DimGray; 
+    border-width: 5px;
+}
+.normalText  { 
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-style: italic;
+    margin: 10px;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+    font-weight: lighter;
+}
+p {
+    color: AliceBlue;
+    font-family: arial;
+    size: 10px;
+    margin: 10px
+}
+body, html{
+    margin: 0px;
+    padding: 0px;
+    background-color: LightGrey;
+}
+.header{
+    background-color: White;
+    -o-box-shadow: 0px 10px 20px -10px lightgrey;
+    box-shadow: 0px 10px 20px -10px lightgrey;
+    padding: 15px;
+    -webkit-filter: drop-shadow(8px 8px 10px lightgrey);
+    -moz-filter: drop-shadow(8px 8px 10px lightgrey);
+}
+.menu {
+    background-color: White;
+
+}
+.logotype {
+    height: 70.5px;
+    width: 60px;
+    margin: 65px 120px;
+    padding-top: 20px;
+    float: left;
+}
+.MenuText{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: grey;
+    font-size: 10px;
+}
+.listmenu {
+    float: right;
+    font-family: 'Roboto-light', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    padding-top: 104px;
+    padding-right: 250px;
+}
+.listmenu ul li {
+    display: inline;
+    padding-right: 19px;
+}
+.ulc{
+    -webkit-padding-start: 15px;
+    text-align: center;
+    padding: 2px ;
+    margin: 0;
+    padding-left: 30px;
+}
+#conteneur{
+    height: 220px;
+}
+/*#bloc2{
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 1200px;
+}
+/#conteneur2{
+    padding-top: 85px;
+    padding-left: 370px;
+    height: 50px;
+    width: 580px;
+}*/
+.fade{
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s; 
+    -moz-transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s;
+    -webkit-transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s;
+}
+.fade:hover{
+    color: #D00;
+    font-size: 20px;
+    opacity: 0.5;
+    size: 1.5;
+}
+.degradesimple{
+    background: linear-gradient(red,white);
+    width: 400px;
+    height: 300px;
+}
+.tweeter{
+    height: 40px;
+    width: 40px;
+}
+.barre{
+    height: 10px;
+    width: 590px;
+
+}
+.fade2{
+    color:#D00; 
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s; 
+    -moz-transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s;
+    -webkit-transition: opacity .25s ease-in-out, color .25s ease-in-out, font-size .2s;
+}
+.fade2:hover{
+    font-size: 20px;
+    opacity: 0.5;
+    size: 1.5;
+
+} 
+a:-webkit-any-link {
+    color: none;
+    cursor: auto;
+    text-decoration: none;
+}
+a:-moz-any-link {
+    color: none; 
+    cursor: auto;
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+}
+.particule{
+    height: 177px;
+    width: 1536px;
+}
+#logo {
+    position:relative; 
+     
+}
+.Style5 {
+    position: absolute;
+    left: 132px;
+    top: 79px;
+    font-family: 'Roboto-light', Arial, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin: 0px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.lignleft{
+    float: left;
+    /*margin-top: 55px;*/
+    /*position: absolute;*/
+    /*left: 43px;*/
+    
+}
+.textepage{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: white;
+    font-size: 30px;
+    /*left: 716px;*/
+    /*position: absolute;*/
+    /*margin-top: 37px;*/
+    font-weight: lighter;
+    font-style: italic;
+}
+.lignright{
+    float: right;
+    /*margin-top: 55px;*/
+    /*position: absolute;*/
+    /*left: 849px;*/
+
+}
+.subheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.subheader hr{
+    width: 40%;
+    background-color: white; 
+    height: 3px;
+}
+/*.panneau {
+    display: inline;
+    margin: 30px;
+}*/
+.widget{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.widget iframe{
+    margin-right: 30PX;
+
+}
+#conteneurwidget{
+    display: flex;
+    justify-content: space-around;
+}
+.twitter-timeline{
+    width: 420px;
+    height: 263.5px;
+    }
+.element{
+    width: 420px;
+    height: 263.5px;
+    }
