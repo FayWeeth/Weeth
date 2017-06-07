@@ -71,19 +71,8 @@ body, html{
 }
 #conteneur{
     height: 220px;
+
 }
-/*#bloc2{
-    position: relative;
-    display: inline-block;
-    height: 200px;
-    width: 1200px;
-}
-/#conteneur2{
-    padding-top: 85px;
-    padding-left: 370px;
-    height: 50px;
-    width: 580px;
-}*/
 .fade{
     font-size: 20px;
     opacity: 1;
@@ -140,7 +129,7 @@ a:visited {
 }
 .particule{
     height: 177px;
-    width: 1536px;
+    width: 1519px;
 }
 #logo {
     position:relative; 
@@ -160,26 +149,17 @@ a:visited {
 }
 .lignleft{
     float: left;
-    /*margin-top: 55px;*/
-    /*position: absolute;*/
-    /*left: 43px;*/
     
 }
 .textepage{
     font-family: 'Roboto', Helvetica, sans-serif;
     color: white;
     font-size: 30px;
-    /*left: 716px;*/
-    /*position: absolute;*/
-    /*margin-top: 37px;*/
     font-weight: lighter;
     font-style: italic;
 }
 .lignright{
     float: right;
-    /*margin-top: 55px;*/
-    /*position: absolute;*/
-    /*left: 849px;*/
 
 }
 .subheader{
@@ -194,10 +174,6 @@ a:visited {
     background-color: white; 
     height: 3px;
 }
-/*.panneau {
-    display: inline;
-    margin: 30px;
-}*/
 .widget{
     display: flex;
     flex-direction: row;
@@ -225,4 +201,20 @@ a:visited {
 
 .element iframe {
     height: 263px!important;
+}
+#backgroundwidgetname{
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.textwidget{
+    color: black;
+}
+.imgyt{
+    margin-top: 2px;
+    height: 35px;
+}
+.imgtt{
+    height: 39px;
 }
