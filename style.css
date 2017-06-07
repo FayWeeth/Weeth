@@ -24,7 +24,8 @@ p {
 body, html{
     margin: 0px;
     padding: 0px;
-    background-color: LightGrey;
+    background-image: 
+            linear-gradient(White, DimGray);
 }
 .header{
     background-color: White;
@@ -217,4 +218,8 @@ a:visited {
 }
 .imgtt{
     height: 39px;
+}
+#sociallink{
+    display: flex;
+    justify-content: center;
 }
