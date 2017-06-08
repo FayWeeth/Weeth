@@ -231,12 +231,40 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, St
     display: flex;
     justify-content: space-around;
     font-family: 'Roboto', Helvetica, sans-serif;
-    font-size: 7px;
+    font-size: 10px;
     font-style: italic;
-    color: white;
+    color: WHITE;
+    font-weight: lighter;
 }
 ul{
     list-style-type: none;
     -webkit-padding-start: 0px;
     -Moz-padding-start: 0px;
+}
+.optionlighter{
+    font-weight: 400;
+}
+.border{
+    border: 5px solid white;
+    border-radius: 11px;
+}
+.imggd{
+    width: 436.8px;
+    height: 244.4px;
+    border: 5px solid white;
+    border-radius: 11px;
+}
+.subtextepage{
+    font-family: 'Roboto', Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 44px;
+}
+#sociallink2{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
