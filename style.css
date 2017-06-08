@@ -226,6 +226,8 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#000000, Direction=180, St
 #sociallink{
     display: flex;
     justify-content: center;
+    padding-bottom: 60px;
+    padding-top: 10px;
 }
 .vignettereations{
     display: flex;
@@ -263,12 +265,6 @@ ul{
     margin-top: 0px;
     margin-bottom: 44px;
 }
-#sociallink2{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 50px;
-}
 /*ul.nav{
         list-style:none;
         padding:0;
@@ -300,3 +296,6 @@ li:hover {
     -webkit-transition: left 0.3s linear;
     -moz-transition: left 0.3s linear;
 }*/
+.margin-bottum{
+    margin-top: 80px;
+}
